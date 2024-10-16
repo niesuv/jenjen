@@ -2,7 +2,9 @@ pipeline {
     agent   any
     stages{
         stage("Demo") {
-            sh "echo Demo jenkin build"
+            steps {
+                sh "echo Demo jenkin build"
+            }
         }
     }
 }
