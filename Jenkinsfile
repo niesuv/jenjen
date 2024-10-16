@@ -3,7 +3,7 @@ pipeline {
     stages{
         stage("Demo") {
             steps {
-                sh "echo Demo jenkin build"
+                sh "echo Demo jenkin build con cac"
             }
         }
     }
